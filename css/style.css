@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(10, 133, 133);
+    font-family: 'Open Sans' , sans-serif;
+}
+
+header .nav {
+    background: #fff;
+}
+
+header .logo h2, header .logo p{
+    font-size: 16 px;
+    display: inline-block;
+}
+header .logo .icono{
+    color: aquamarine;
+}
+header .logo svg{
+    width: 20px;
+    height: 20px;
+}
+header .logo o{
+    color: yellowgreen;
+}
