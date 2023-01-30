@@ -21,3 +21,10 @@ header .logo svg{
 header .logo o{
     color: yellowgreen;
 }
+
+h1{
+    color: chartreuse;
+}
+form ul li{
+    text-decoration: none;
+}

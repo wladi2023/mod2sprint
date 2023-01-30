@@ -1,22 +1,16 @@
 let miBoton = document.getElementById("miBoton");
 
-
-miBoton.onclick = saludar;
-miBoton.onclick = despedir;
-
-function saludar(){
-    alert("Hola, Buenos dias");
-}
-
-function despedir(){
-    alert("Buenas Noches");
-}
-//evento addEcentListener()
 miBoton.addEventListener("click", saludar);
-miBoton.addEventListener("click", despedir);
-
-function miFuncion(){
-    alert('Haz presionado el boton con exito!!!');
+function saludar(){
+    alert("Hola, todos los días lunes recibirás nuestras ofertas");
 }
-
+miBoton.addEventListener("click", miFuncion);
+function miFuncion(){
+    alert('¡Muchas gracias!');
+}
 alert("¡Bienvenidos a Cachureando!");
+
+// miBoton.onclick = saludar;
+// miBoton.onclick = despedir;
+
+//evento addEcentListener()
