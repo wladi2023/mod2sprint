@@ -4,10 +4,10 @@ body {
 }
 
 header .nav {
-    background: #006778;color: white;
+    background: #ffd124;color: white;
 }
 
-header .logo h2, header .logo p{
+/*header .logo h2, header .logo p{
     font-size: 16 px;
     display: inline-block;
 }
@@ -20,8 +20,8 @@ header .logo svg{
 }
 header .logo o{
     color: yellowgreen;
-}
-
+}*/
+div {font-size: 4ch; color: white; padding-left: 30px;}
 h1{
     color: #ffd124;
 }
@@ -29,4 +29,4 @@ h2 { color: white; margin-top: 25px;}
 form ul li{
     text-decoration: none;
 }
-footer div {background-color: #072227;color: white; padding: 12px;text-align: center;}
+footer div {background-color: #072227;color: white; padding: 25px;text-align: center;}
