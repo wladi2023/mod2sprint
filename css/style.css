@@ -4,7 +4,7 @@ body {
 }
 
 header .nav {
-    background: #fff;
+    background: #006778;color: white;
 }
 
 header .logo h2, header .logo p{
@@ -23,8 +23,10 @@ header .logo o{
 }
 
 h1{
-    color: chartreuse;
+    color: #ffd124;
 }
+h2 { color: white; margin-top: 25px;} 
 form ul li{
     text-decoration: none;
 }
+footer div {background-color: #072227;color: white; padding: 12px;text-align: center;}
